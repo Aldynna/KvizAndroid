@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kviz AS</string>
+    <string name="unesite_ime">Unesite ime:</string>
+    <string name="start">Start</string>
+    <string name="pokreni">Pokreni kviz!</string>
+    <string name="sretno">Sretno</string>
+    <string name="instrukcije">INSTRUKCIJE</string>
+    <string name="about">O NAMA</string>
+    <string name="novi_igrac">NOVI IGRAČ!</string>
+    <string name="exit">IZAĐI IZ IGRE</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ButtonB">Bosanski</string>
+    <string name="ButtonE">English</string>
+    <string name="odaberi">Izaberite jezik/Choose Language</string>
+    <string name="again">PONOVO</string>
+    <string name="onama">Mi smo mali developerski tim sa PMF-a.\nMi smo Aldina i Sabina.\nNašu lokaciju možete pronaći na mapi ispod.</string>
+    <string name="aboutus">We are student developer team from PMF.\nWe are Aldina and Sabina.\nYou can see our location down below.</string>
+    <string name="nazad">NAZAD</string>
+</resources>

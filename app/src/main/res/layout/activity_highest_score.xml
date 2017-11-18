@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_highest_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+              android:orientation="vertical"
+                android:background="@drawable/background4"
+    tools:context="com.sample.multiplechoicequiz.HighestScoreActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/logotip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+
+    <RatingBar
+        android:id="@+id/zvjezdice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@android:color/holo_orange_light"
+        android:stepSize="1"/>
+        <TextView
+            android:text="Your score:"
+            android:textColor="#ffffff"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textScore"
+            android:padding="@dimen/activity_vertical_margin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:text="Highest score:"
+            android:textColor="#ffffff"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:id="@+id/textHighScore"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+        <Button
+            android:text="@string/again"
+            android:textColor="#ffffff"
+            android:background="#A1CD69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:text="@string/novi_igrac"
+            android:textColor="#ffffff"
+            android:background="#91DFD6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newbutton"
+            android:layout_marginLeft="5dp"/>
+</LinearLayout>
+        <Button
+            android:text="@string/exit"
+            android:textColor="#ffffff"
+            android:background="#FF5D99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/ebutton"
+            android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background4">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sretno"
+        android:textColor="#ffffff"
+        android:id="@+id/sretno"
+        android:textStyle="bold|italic"/>
+
+    <RatingBar
+        android:id="@+id/zivoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/colorAccent"
+        android:stepSize="-1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pomoc"
+        android:id="@+id/pomoc"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/brojac"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question to answer"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/question"
+        android:paddingTop="10dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="A"
+        android:textColor="#fff"
+        android:padding="8dp"
+         android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/choice1"
+        android:layout_marginRight="10dp"
+        android:background="#91DFD6"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="B"
+        android:background="#FF5D99"
+        android:textColor="#fff"
+        android:padding="8dp"
+         android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/choice2"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="C"
+        android:background="#EEBD30"
+        android:textColor="#fff"
+        android:padding="8dp"
+         android:onClick="onClick"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="D"
+        android:background="#A1CD69"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/choice4"
+        android:onClick="onClick"
+        android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progres"
+        android:progress="0"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:scrollbarStyle="insideOverlay"
+        android:background="#ffffff"
+
+        />
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

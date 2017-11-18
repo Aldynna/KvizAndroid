@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_prva"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background4"
+                tools:context="com.sample.multiplechoicequiz.MeniActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logotip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:id="@+id/startbutton"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/startbutton"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/aboutusbutton"
+        android:layout_alignEnd="@+id/aboutusbutton"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"/>
+
+    <ImageButton
+        android:id="@+id/howtoplaybutton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/howtoplaybutton"
+        android:layout_alignBottom="@+id/startbutton"
+        android:layout_toRightOf="@+id/startbutton"
+        android:layout_toEndOf="@+id/startbutton"/>
+
+    <ImageButton
+        android:id="@+id/aboutusbutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/aboutusbutton"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/startbutton"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"/>
+
+</RelativeLayout>
